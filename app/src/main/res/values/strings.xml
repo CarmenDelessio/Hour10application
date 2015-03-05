@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hour10application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="checkbox_text">I would like to receive announcement emails</string>
+    <string name="postive">YES</string>
+    <string name="negative">NO</string>
+    <string name="positive_negative_label">Choose Yes or No:</string>
+    <string name="show_data_button_label">Show Data</string>
+    <string name="results_hint">Data will display here</string>
+
+    <string-array name="pie_array">
+        <item>apple</item>
+        <item>blueberry</item>
+        <item>cherry</item>
+        <item>coconut cream</item>
+    </string-array>
+
+    <string-array name="choices_array">
+        <item>Show Data Collection Activity</item>
+        <item>Show Progress Activity</item>
+        <item>Show GridView Activity</item>
+        <item>Show ViewFlipper Activity</item>
+        <item>Show WebView Activity</item>
+
+    </string-array>
+
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_data_collection">DataCollectionActivity</string>
+    <string name="text_finished">Finished!</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="title_activity_adapter_view_flipper">AdapterViewFlipperActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+
+</resources>

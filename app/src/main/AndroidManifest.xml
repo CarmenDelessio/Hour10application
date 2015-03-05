@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bffmedia.hour10application" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DataCollectionActivity"
+            android:label="@string/title_activity_data_collection" >
+        </activity>
+        <activity
+            android:name=".ProgressActivity"
+            android:label="@string/title_activity_progress" >
+        </activity>
+        <activity
+            android:name=".GridViewActivity"
+            android:label="@string/title_activity_grid_view" >
+        </activity>
+        <activity
+            android:name=".AdapterViewFlipperActivity"
+            android:label="@string/title_activity_adapter_view_flipper" >
+        </activity>
+        <activity
+            android:name=".WebViewActivity"
+            android:label="@string/title_activity_web_view" >
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
